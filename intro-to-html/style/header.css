@@ -1,0 +1,50 @@
+.flex-main{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+}
+.flex-left{
+ 
+    display: flex;
+    align-items: center;
+
+}
+.flex-center{
+    background-color: lightpink;
+    display: flex;
+    flex: 1;
+    margin-left: px;
+    margin-right: 35px;
+    max-width: 500px;
+    
+    align-items: center;
+}
+.flex-right{
+    background-color: lightblue;
+    width: 200px;
+}
+.ham-icon{
+width: 25px;
+margin-left: 20px;
+margin-right: 20px;
+}
+.you-icon{
+    width: 100px;
+}
+.search-icon{
+    height: 20px;
+
+}
+.voice-icon{
+    height: 10px;
+     
+}
+.search-in{
+    flex: 1;
+    height: 36px;
+}
+.search-in::placeholder{
+    font-family: Roboto;
+    padding-left: 6px;
+}

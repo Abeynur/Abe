@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .back{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            margin-right: 8px;
+        }
+        .one{
+            border: none;
+            margin-right: 4px;
+        }
+        .two{
+            border: none;
+
+        }
+        .Stretch{
+            background-color: green;
+            color: white;
+            border: solid 1px rgb(247, 236, 236) ;
+            padding-left: 16px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-right: 16px;
+           transition: padding 1s;
+        }
+.Stretch:hover{
+    padding: 25px;
+       
+}
+.shadow{
+    background-color: green;
+            color: white;
+            border: none;
+            padding-left: 16px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           padding-right: 16px;
+           box-shadow: 4px 3px 3px rgb(175, 187, 190)
+}
+.shadow:hover{
+    cursor: pointer;
+}
+.shadow:active{
+    box-shadow: none;
+}
+    </style>
+</head>
+<body>
+    <Button class="back">
+        Back
+    </Button>
+
+    <button class="one">
+        <u>1</u>
+ 
+    </button>
+<span>
+    <button class="two">
+        <u>2</u>
+    </button>
+</span>
+<button class="Stretch">
+    Stretch
+</button>
+<div>
+    <button class="shadow">
+        shadow
+    </button>
+</div>
+   
+</body>
+</html>
